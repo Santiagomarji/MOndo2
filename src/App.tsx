@@ -1,13 +1,15 @@
 // src/App.tsx
-import React from 'react'
+import "./App.css";
 
 function App() {
   return (
-    <div>
-      <h1>Hello from MondoAI!</h1>
-      <p>Your app is working 🎉</p>
-    </div>
-  )
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <div>
+        <h1 className="text-4xl font-bold">Welcome to Mondo AI Media Labs</h1>
+        <p className="mt-4 text-lg">AI-powered growth, global scale.</p>
+      </div>
+    </main>
+  );
 }
 
-export default App
+export default App;
